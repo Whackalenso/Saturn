@@ -1,5 +1,7 @@
+import QuestionPage from "./QuestionPage";
+
 function App() {
-  return <div>Test</div>;
+  return <QuestionPage/>;
 }
 
 export default App;
