@@ -1,7 +1,7 @@
-export default function Question({ question }) {
+export default function Question({ question, nextQuestion }) {
   return (
     <div>
-      <p>Question: how many apples</p>
+      {/* <p>{question}</p> */}
     </div>
   );
 }

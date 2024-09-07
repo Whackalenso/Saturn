@@ -3,7 +3,7 @@ import Question from "./components/Question.js";
 import Papa from "papaparse";
 
 export default function QuestionPage() {
-  //   const [questionData, setQuestionData] = useState([]);
+    // const [questionData, setQuestionData] = useState([]);
   const [question, setQuestion] = useState({});
 
   function nextQuestion() {
