@@ -7,7 +7,7 @@ export default function Question({ question, nextQuestion }) {
     window.MathJax.typeset();
   });
   return (
-    <div className="mx-3">
+    <div className="mx-3 h-max">
       <div>
         <p>{question.source}</p>
       </div>
