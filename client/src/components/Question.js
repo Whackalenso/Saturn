@@ -7,7 +7,7 @@ export default function Question({ question, nextQuestion }) {
   });
   return (
     <div className="mx-3">
-      <div>
+      <div className="inline-block">
         <p>{question.source}</p>
       </div>
       <div>

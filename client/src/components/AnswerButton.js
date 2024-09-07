@@ -6,7 +6,7 @@ export default function AnswerButton({ question, nextQuestion }) {
     .sort((a, b) => a.sort - b.sort)
     .map(({ value }) => value).map((answer) => {
                 return (
-                    <button className="bg-blue-200 p-5 rounded-lg text-left" onClick={nextQuestion}>{answer}</button>
+                    <button className="bg-blue-200 p-5 rounded-lg text-left inline-block" onClick={nextQuestion}>{answer}</button>
                 );
             })}
         </div>
