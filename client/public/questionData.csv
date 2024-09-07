@@ -3,17 +3,12 @@ unit,subunit,unit_name,subunit_name,ID,source,correct,false_1,false_2,false_3
 1,1,Algebra,Linear equations in 1 variable,2,If \(6x+2 = 40\) and \(kx=2\) Solve for \(k\),\(\frac{2}{7}\),\(7\),\(\frac{1}{6}\),\(5\)
 2,1,Advanced Math,Equivalent expressions,3,Simplify the expression: \(\frac{x^2 - 9}{x - 3}\),\(x+3\),\(x-3\),\(x+9\),\(0\)
 1,4,Algebra,Systems of 2 linear equations in 2 variables,4,\(3x-8y = 13\) \\ \(y = 6x+4\) \\ What is the sum of \(\frac{xy}{x}\),\(-1\),\(\frac{1}{2}\),\(2\),\(-2\)
-4,2,Geometry and Trigonometry,"Lines, angles, and triangles",5,,,,,
+4,2,Geometry and Trigonometry,"Lines, angles, and triangles",5,"In triangle \(ABC\), angle \(A\) measures \(40^{\circ}\) and angle \(B\) measures \(60^{\circ}. What is the measure of angle \(C\)?",\(80^{/circ}\),\(60^{/circ}\),\(40^{/circ}\),\(100^{/circ}\)
 2,4,Advanced Math,Nonlinear functions,6,"\(F = 2000(1.05)^{\frac{Q}{4}}\) \\ The equation above models the total number of followers, F, on a social media account Q quarter years after the 2 months. Based on the model, which of the following statements are true?",The number of subscribers increases by \(5\) percent each quarter year,The number of subscribers increases by \(5\) percent each year,The total number of subscribers increases by \(2000\) each quarter year,The total number of subscribers increases by \(2000\) each year
 3,1,Problem-Solving and Data Analysis,"Ratios, rates, proportional relationships, and units",7,A car travels \(180\) miles in \(4\) hours. What is the average speed of the car in miles per hour?,\(45\) mph,\(30\) mph,\(40\) mph,\(50\) mph
 4,4,Geometry and Trigonometry,Circles,8,The area of a circle is \(64\pi\) square units. What is the radius of the circle?,\(8\) units,\(16\) units,\(32\) units,\(4\) units
 1,3,Algebra,Linear functions,9,The function \(f\) is defined by the equation \(f(x)=7x+2\). What is the value of \(f(x)\) when \(x=4\)?,\(30)\,\(28\),\(16\),\(\frac{18}{7}\)
-1,2,Algebra,Linear equations in 2 variables,10,"A teacher is creating an assignment worth \(70\) points.
-The assignment will consist of questions worth
-\(1\) point and questions worth \(3\) points. Which
-equation represents this situation, where \(x\) represents
-the number of \(1\)-point questions and \(y\) represents the
-number of \(3\)-point questions? ",\(x+3y=70)\,\(4xy=70\),\(4(x+y)=70\),\(3x+y=70\)
+1,2,Algebra,Linear equations in 2 variables,10,"A teacher is creating an assignment worth \(70\) points. The assignment will consist of questions worth \(1\) point and questions worth \(3\) points. Which equation represents this situation, where \(x\) represents the number of \(1\)-point questions and \(y\) represents the number of \(3\)-point questions? ",\(x+3y=70)\,\(4xy=70\),\(4(x+y)=70\),\(3x+y=70\)
 4,4,Geometry and Trigonometry,Circles,11,"Given a circle centered at \((-4,4)\) with a radius of 9, what is the equation of the circle?",\((x+4)^{2}+(y-4)^{2} = 3^2\),\((x-4)^{2}+(y+4)^{2} = 9\),\((x+4)^{2}+(y-4)^{2} = 9^2\),\((x+4)^{2}-(y-4)^{2} = 9^2\)
 4,3,Geometry and Trigonometry,Right triangles and trigonometry,12,"Right triangles \(LMN\) and \(PQR\) are similar, where \(L\) and \(M\) correspond to \(P\) and \(Q\), respectively. Angle \(M\) has a measure of \(53^{\circ}\). What is the measure of angle Q? ",\(53^{\circ}\),\(37^{\circ}\),\(127^{\circ}\),\(143^{\circ}\)
 ,,Algebra,Systems of 2 linear equations in 2 variables,13,"\(48x-72y = 30y+24\) \\ \(ry=\frac{1}{6}-16x\) \\ In the given system of equations, r is a constant. If the system has no solution, what is the value of r?",\(-34\),\(34\),\(68\),\(-68\)
