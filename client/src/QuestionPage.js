@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import Question from "./components/Question.js";
+import Header from "./components/Header.js";
 import Papa from "papaparse";
 
 export default function QuestionPage() {
@@ -25,7 +26,7 @@ export default function QuestionPage() {
 
   return (
     <div>
-      <h1>Question Page</h1>
+      <Header />
       <Question question={question} nextQuestion={nextQuestion} />
     </div>
   );
