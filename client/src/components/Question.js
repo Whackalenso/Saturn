@@ -3,7 +3,8 @@ import AnswerButton from "./AnswerButton.js";
 
 export default function Question({ question, nextQuestion }) {
   useEffect((_) => {
-    MathJax.typeset();
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    window.MathJax.typeset();
   });
   return (
     <div className="mx-3">
@@ -11,7 +12,7 @@ export default function Question({ question, nextQuestion }) {
         <p>{question.source}</p>
       </div>
       <div>
-        <AnswerButton question={question} nextQuestion={nextQuestion}/>
+        <AnswerButton question={question} nextQuestion={nextQuestion} />
       </div>
     </div>
   );
