@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
+import Question from "./components/Question.js";
 import Papa from "papaparse";
 
 export default function QuestionPage() {
-  //   const [questionData, setQuestionData] = useState([]);
   const [question, setQuestion] = useState({});
 
   useEffect(() => {
@@ -23,7 +23,7 @@ export default function QuestionPage() {
   return (
     <div>
       <h1>Question Page</h1>
-      {/* <p>{question}</p> */}
+      <Question question={question} />
     </div>
   );
 }
