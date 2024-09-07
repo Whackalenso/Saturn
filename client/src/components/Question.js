@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 
 export default function Question({ question, nextQuestion }) {
-  useEffect(_ => {
-    MathJax.typeset()
+  useEffect((_) => {
+    MathJax.typeset();
   });
   return (
     <div>
