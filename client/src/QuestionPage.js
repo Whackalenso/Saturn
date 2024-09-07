@@ -28,7 +28,7 @@ export default function QuestionPage() {
   return (
     <div className="h-screen w-screen">
       <Header />
-      <Question question={question} nextQuestion={nextQuestion} />
+        <Question question={question} nextQuestion={nextQuestion} />
       <Footer />
     </div>
   );
