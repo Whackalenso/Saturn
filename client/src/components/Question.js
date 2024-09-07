@@ -6,13 +6,13 @@ export default function Question({ question, nextQuestion }) {
     MathJax.typeset();
   });
   return (
-    <>
+    <div className="mx-3">
       <div>
         <p>{question.source}</p>
       </div>
       <div>
         <AnswerButton question={question} nextQuestion={nextQuestion}/>
       </div>
-    </>
+    </div>
   );
 }
