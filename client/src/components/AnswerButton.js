@@ -21,7 +21,7 @@ export default function AnswerButton({
           }
           return (
             <button
-              className={`${color} p-5 rounded-lg text-left inline-block`}
+              className={`${color} bg-blue-200 p-5 rounded-lg text-left inline-block transition-all active:scale-95`}
               onClick={(e) => {
                 setSubmittedAnswer(answer);
               }}

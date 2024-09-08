@@ -26,10 +26,10 @@ export default function QuestionPage() {
   useEffect(nextQuestion, []);
 
   return (
-    <div className="h-screen w-screen">
-      <Header />
+    <div className="h-screen w-screen flex flex-col justify-between">
+      <Header className=""/>
         <Question question={question} nextQuestion={nextQuestion} />
-      <Footer />
+      <Footer className=""/>
     </div>
   );
 }
