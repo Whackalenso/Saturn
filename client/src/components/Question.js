@@ -1,7 +1,9 @@
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 import AnswerButton from "./AnswerButton.js";
 
 export default function Question({ question, nextQuestion }) {
+  const [submittedAnswer, setSubmittedAnswer] = useState();
+
   useEffect((_) => {
     // eslint-disable-next-line @typescript-eslint/ban-ts-comment
     window.MathJax.typeset();
@@ -12,7 +14,12 @@ export default function Question({ question, nextQuestion }) {
         <p>{question.source}</p>
       </div>
       <div>
-        <AnswerButton question={question} nextQuestion={nextQuestion} />
+        <AnswerButton
+          question={question}
+          nextQuestion={nextQuestion}
+          submittedAnswer={submittedAnswer}
+          setSubmittedAnswer={setSubmittedAnswer}
+        />
       </div>
     </div>
   );
