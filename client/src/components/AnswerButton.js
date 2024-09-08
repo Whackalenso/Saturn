@@ -5,6 +5,7 @@ export default function AnswerButton({
   nextQuestion,
   submittedAnswer,
   setSubmittedAnswer,
+  setSocialCreditScore,
 }) {
   const [answers, setAnswers] = useState([]);
 
@@ -45,15 +46,19 @@ export default function AnswerButton({
           <button
             className={`${color} bg-blue-200 p-5 rounded-lg text-left inline-block transition-all active:scale-95`}
             onClick={(e) => {
-              if (submittedAnswer != question.correct) {
-                setSubmittedAnswer(answer);
-              }
               // nextQuestion();
-              if (answer == question.correct) {
+              if (answer == question.correct && submittedAnswer != question.correct) {
+                setSocialCreditScore((score) => score + 100);
                 setTimeout(() => {
                   // alert(1);
                   nextQuestion();
                 }, 1000);
+              } else if (answer != question.correct && submittedAnswer != question.correct) {
+                setSocialCreditScore((score) => score - 100);
+              }
+              
+              if (submittedAnswer != question.correct) {
+                setSubmittedAnswer(answer);
               }
             }}
           >

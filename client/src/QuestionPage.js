@@ -8,6 +8,8 @@ export default function QuestionPage() {
     // const [questionData, setQuestionData] = useState([]);
   const [question, setQuestion] = useState({});
 
+  const [socialCreditScore, setSocialCreditScore] = useState(1200);
+
   function nextQuestion() {
     fetch("./questionData.csv")
       .then((response) => response.text())
@@ -28,8 +30,8 @@ export default function QuestionPage() {
   return (
     <div className="h-screen w-screen flex flex-col justify-between">
       <Header className=""/>
-        <Question question={question} nextQuestion={nextQuestion} />
-      <Footer className=""/>
+        <Question question={question} nextQuestion={nextQuestion} setSocialCreditScore={setSocialCreditScore}/>
+      <Footer className="" socialCreditScore={socialCreditScore}/>
     </div>
   );
 }
